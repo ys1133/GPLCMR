@@ -30,7 +30,4 @@ DPTCMR/
     python evaluate.py
     ```
 
-## **Dependencies**
-Ensure the following Python dependencies are installed (**or refer to `requirements.txt`**):
-```bash
-pip install torch numpy pandas torch_geometric torch_sparse torch_scatter scikit-learn
+
