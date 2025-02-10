@@ -30,4 +30,9 @@ DPTCMR/
     python evaluate.py
     ```
 
+## **Dependencies**
+Ensure the following Python dependencies are installed (**or refer to `requirements.txt`**):
+```bash
+pip install -r requirements.txt
+
 
