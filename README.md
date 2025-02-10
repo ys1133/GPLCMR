@@ -2,20 +2,22 @@
 # **DPTCMR**
 
 ## **Project Overview**
-DPTCMR is a **recommendation system training project** based on **Prompt learning** and **LightGCN**.  
-It supports **multi-country datasets** and includes **model training, evaluation, and data processing** functionalities.
+DPTCMR is a **cross-market recommendation system project** based on **Prompt learning** and **LightGCN**.  
+It includes **model training, evaluation, and data processing** functionalities.
 
 
 ## **Directory Structure**
 ```
-│── data/ # Contains user ratings, item information, and other dataset files
-
-│── model/ # Stores trained model weight files
-│── config.py # Configuration file, including training parameters and data paths
-│── data.py # Data loading and preprocessing, including users, items, and interaction data
-│── evaluate.py # Model evaluation, including BPR loss calculation and metric computation │── model.py # Definition of LightGCN and Prompt learning models, including message passing and normalization │── prompt.py # Prompt-related code, including global embedding enhancement and attention mechanism │── train.py # Training script, covering model training, optimization, prompt tuning, and distillation learning
+DPTCMR/
+│── data/           - Contains user ratings, item information, and other dataset files
+│── model/          - Stores trained model weight files
+│── config.py       - Configuration file, including training parameters and data paths
+│── data.py         - Data loading and preprocessing, including users, items, and interaction data
+│── evaluate.py     - Model evaluation, including BPR loss calculation and metric computation
+│── model.py        - Definition of LightGCN and Prompt learning models, including message passing and normalization
+│── prompt.py       - Prompt-related code, including global embedding enhancement and attention mechanism
+│── train.py        - Training script, covering model training, optimization, prompt tuning, and distillation learning
 ```
-
 
 ## **Running Instructions**
 1. Ensure that **Python** and required dependencies are installed.
